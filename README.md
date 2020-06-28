@@ -84,4 +84,34 @@ public class Course {
   }]
 ```
 
-P.S. 基本类型设置为null后，会设置为默认值（char为' '）
+配置
+
+`{\"students\":{\"gender\":null,"courses":null},\"classNo\":null}`
+
+响应
+
+```
+[{
+     "students":[
+     {
+         "age":16,
+         "gender":null,
+         "courses":null
+     }]
+ },
+ {
+      "students":[
+      {
+          "age":15,
+          "gender":null,
+          "courses":null
+      },
+      {
+        "age":16,
+        "gender":null,
+        "courses":null
+    }]
+  }]
+```
+
+P.S. 基本类型设置为null后，会设置为默认值（char为' '）,例如age会设置为0
