@@ -1,8 +1,8 @@
-##接口字段过滤/瘦身
+## 接口字段过滤/瘦身
 
-###一、接入方案
+### 一、接入方案
 
-#####1、初始化bean
+##### 1、初始化bean
 
 ```
 @Bean
@@ -11,7 +11,7 @@ public SlimingColumnsAop slimingColumnsAop() {
 }
 ```
 
-#####2、初始化bean
+##### 2、初始化bean
 接口添加注解@SlimColumns
 ```
 @PostMapping("test")
@@ -21,7 +21,7 @@ public List<Class> getAllClass(){
 }
 ```
 
-二、举例
+### 二、举例
 
 class 类
 ```
